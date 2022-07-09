@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*_ {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+
+}
+
+html {
+  font-size: 62.5%;
+}
+
+
+
+
+/*-----BODY------*/
+body {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  ;
+}
+
+/*-------HEADER-------*/
+header {
+  background-color: black;
+}
+
+/*-----MAIN-------*/
+img.logo {
+  width: 200px;
+  height: 200px;
+}
+
+h1 {
+  color: yellow;
+  font-size: xx-large;
+  text-align: center;
+  width: 100vw;
+  font-size: 4rem;
+  margin: -1 rem
+}
+
+h2 {
+  color: red;
+  text-align: center;
+  font-size: x-large;
+  margin-top: 8rem;
+
+  width: 100vw;
+}
+
+
+/*------NAV-------*/
+
+nav {
+  padding: 100px;
+  font-size: x-large;}
+
+
+
+.poster {                                                                                                                         
+  display: grid;
+  grid-template-rows: 650px auto 650px;
+  grid-template-columns: 500px 35% 15%;
+  grid row-gap: 5px;
+  grid column-gap: 10px;
+  grid-template-areas:
+    "galeria8 galeria10 galeria6"
+    "galeria4 galeria1 galeria9"
+    "galeria3 galeria5 galeria7"
+    "galeria2";
+}
+
+
+.galeria1 {
+  grid-area: galeria1;
+}
+
+.galeria2 {
+  grid-area: galeria2;
+}
+
+.galeria3 {
+  grid-area: galeria3;
+}
+
+.galeria4 {
+  grid-area: galeria4;
+}
+
+.galeria5 {
+  grid-area: galeria5;
+}
+
+.galeria6 {
+  grid-area: galeria6;
+}
+
+.galeria7 {
+  grid-area: galeria7;
+}
+
+.galeria8 {
+  grid-area: galeria8;
+}
+
+
+.galeria7 {
+
+  grid-area: galeria7;
+}
+
+.galeria8 {
+  grid-area: galeria8;
+}
+
+
+.galeria9 {
+
+  grid-area: galeria9;
+}
+
+.galeria10 {
+  grid-area: galeria10;
+}
+
+
+
+
+.MenuSuperior {
+  text-align: center;
+  display:grid;
+  gap: 10px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: 
+  "index contacto producto"
+   "redes nosotros";}
+
+.MenuSuperior li {
+  display: inline;
+  text-align: center}
+  
+
+
+.MenuSuperior a {
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: yellow;
+  color: red;
+  padding: 0.25rem;}
+
+
+
+iframe {
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  border: solid 5px goldenrod
+}
+
+
+
+/*---ARTICLE---*/
+.argentina {
+  width: 500px;
+  height: 250px;
+  margin-top: 5rem;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.DVD {
+  width: 500px;
+  height: 250px;
+  margin-top: 5rem;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.sixty {
+  width: 500px;
+  height: 250px;
+  margin-top: 5rem;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.tapas {
+  width: 500px;
+  height: 250px;
+  margin-top: 5rem;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.ropa {
+  width: 500px;
+  height: 250px;
+  margin-top: 5rem;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.vinilos {
+  width: 500px;
+  height: 250px;
+  margin-top: 5rem;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto
+}
+
+
+.productos1 {
+  color: rgba(1, 65, 175, 0.877);
+  font-size: small;
+  display: grid;
+}
+
+.productos2 {
+  color: rgb(211, 147, 9);
+  font-size: x-small;
+  display: grid;
+}
+
+
+fieldset.formulario {
+  background-color: yellowgreen;
+  color: rgb(138, 11, 11);
+  font-size: medium;
+  text-align: left;
+}
+
+
+/*-----SECTION-----*/
+
+
+
+img.vinilos {
+  width: 500px;
+  height: 250px;
+}
+
+
+h3 {
+  color: rgb(241, 103, 11);
+  display: flex;
+  font-size: x-large;
+  text-align: justify;
+  border: solid 2px white;
+  padding: 1rem;
+}
+
+img.stones {
+  width: 80px;
+  height: 80px;
+  margin-right: 1rem;
+}
+
+img.lenguaarg {
+  width: 500px;
+  height: 500px;
+  margin-top: 5rem;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto
+}
+
+
+aside {
+  color: darkgoldenrod;
+  border: solid 1px gray;
+  padding: 0.5rem;
+}
+
+img.donwas {
+  width: 300px;
+  height: 150px;
+}
+
+.donwas {
+  display: flex;
+  width: 100vw;
+}
+
+div .venta {
+  width: 25%;
+  font-size: small;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgba(0, 0, 0, 0.699);
+  background-color: white
+}
+
+.venta1 {
+  color: rgb(145, 142, 142);
+  background-color: white;
+  font-size: x-small;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*--------FOOTER----------*/
+
+h4 {
+  color: red;
+  text-align: center;
+  font-size: medium;
+}
+
+div {
+  color: dimgrey;
+  font-size: small;
+}
+
+h5 {
+  color: blue;
+  font-size: medium;
+}
+
+h6 {
+  color: yellow;
+  font-size: medium;
+}
+
+.MenuInferior {
+  list-style-type: none;
+  text-align: center;
+}
+
+.MenuInferior li {
+  display: inline-flex;
+  text-align: center;
+}
+
+
+p {
+  color: grey;
+  font-size: xx-small;
+}
+
+
+*/ Mobile First */ @media (min-width:768px) {
+  nav {
+    font-size: medium;
+    background-color: red;
+    text-align: center;
+  }
+
+  .poster {
+    grid-template-columns: auto;
+    background-color: rgb(66, 4, 4);
+  }
+}
+
+
+
+
+
+@media (min-width:992px) {
+
+  nav {
+    font-size: large;
+    background-color: rgb(83, 76, 42);
+    text-align: center;
+  }
+
+  .poster {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: rgb(4, 24, 68);
+
+  }
+}
