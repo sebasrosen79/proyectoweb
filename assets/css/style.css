@@ -27,6 +27,7 @@ header {
   background-color: black;
 }
 
+
 /*-----MAIN-------*/
 img.logo {
   width: 200px;
@@ -41,6 +42,10 @@ h1 {
   font-size: 4rem;
   margin: -1 rem
 }
+h1:hover {
+  color: red;
+  font-size: 75px;
+}
 
 h2 {
   color: red;
@@ -50,99 +55,33 @@ h2 {
 
   width: 100vw;
 }
+h2:hover {
+color: yellow;
+font-size: 50px;
+}
 
 
 /*------NAV-------*/
 
 nav {
-  padding: 100px;
-  font-size: x-large;}
+  padding: 15px;
+  font-size: x-large;
+  text-align: center;
 
-
-
-.poster {                                                                                                                         
-  display: grid;
-  grid-template-rows: 650px auto 650px;
-  grid-template-columns: 500px 35% 15%;
-  grid row-gap: 5px;
-  grid column-gap: 10px;
-  grid-template-areas:
-    "galeria8 galeria10 galeria6"
-    "galeria4 galeria1 galeria9"
-    "galeria3 galeria5 galeria7"
-    "galeria2";
 }
-
-
-.galeria1 {
-  grid-area: galeria1;
-}
-
-.galeria2 {
-  grid-area: galeria2;
-}
-
-.galeria3 {
-  grid-area: galeria3;
-}
-
-.galeria4 {
-  grid-area: galeria4;
-}
-
-.galeria5 {
-  grid-area: galeria5;
-}
-
-.galeria6 {
-  grid-area: galeria6;
-}
-
-.galeria7 {
-  grid-area: galeria7;
-}
-
-.galeria8 {
-  grid-area: galeria8;
-}
-
-
-.galeria7 {
-
-  grid-area: galeria7;
-}
-
-.galeria8 {
-  grid-area: galeria8;
-}
-
-
-.galeria9 {
-
-  grid-area: galeria9;
-}
-
-.galeria10 {
-  grid-area: galeria10;
-}
-
-
-
-
 .MenuSuperior {
   text-align: center;
-  display:grid;
   gap: 10px;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-  grid-template-areas: 
-  "index contacto producto"
-   "redes nosotros";}
+  
+}
+
 
 .MenuSuperior li {
-  display: inline;
-  text-align: center}
-  
+  display: inline-block;
+  text-align: center;
+
+}
+
 
 
 .MenuSuperior a {
@@ -150,8 +89,14 @@ nav {
   text-transform: uppercase;
   background-color: yellow;
   color: red;
-  padding: 0.25rem;}
+  padding: 0.25rem;
 
+}
+
+.MenuSuperior a:hover {
+  background-color: rgb(209, 209, 224);
+   border: solid 2px;
+  display: grid;}
 
 
 iframe {
@@ -166,6 +111,7 @@ iframe {
 
 
 /*---ARTICLE---*/
+
 .argentina {
   width: 500px;
   height: 250px;
@@ -225,13 +171,16 @@ iframe {
   color: rgba(1, 65, 175, 0.877);
   font-size: small;
   display: grid;
+  
 }
 
 .productos2 {
   color: rgb(211, 147, 9);
   font-size: x-small;
   display: grid;
+  
 }
+
 
 
 fieldset.formulario {
@@ -239,6 +188,87 @@ fieldset.formulario {
   color: rgb(138, 11, 11);
   font-size: medium;
   text-align: left;
+}
+
+.productostitulo {font-size: x-large;
+  margin-top: 50px;}
+
+
+label {font-size: large;
+}
+
+.comentario {
+border: solid rgb(218, 6, 6);
+font-size: xx-large;
+}
+.startmeup :hover {
+  background-color : rgba(133, 10, 10, 0.822);
+   border: solid 2px;
+  display: grid;}
+
+/*----PICTURE-----*/
+
+.poster {
+  display: grid;
+ 
+  grid-template-areas: 
+  "galeria3 galeria10 galeria8"
+  "galeria2 galeria9 galeria6"
+  "galeria5 galeria7 galeria1"
+  " . galeria4 .";
+}
+
+
+.galeria1 {
+  grid-area: galeria1;
+}
+
+.galeria2 {
+  grid-area: galeria2;
+}
+
+.galeria3 {
+  grid-area: galeria3;
+}
+
+.galeria4 {
+  grid-area: galeria4;
+}
+
+.galeria5 {
+  grid-area: galeria5;
+}
+
+.galeria6 {
+  grid-area: galeria6;
+}
+
+.galeria7 {
+  grid-area: galeria7;
+}
+
+.galeria8 {
+  grid-area: galeria8;
+}
+
+
+.galeria7 {
+
+  grid-area: galeria7;
+}
+
+.galeria8 {
+  grid-area: galeria8;
+}
+
+
+.galeria9 {
+
+  grid-area: galeria9;
+}
+
+.galeria10 {
+  grid-area: galeria10;
 }
 
 
@@ -316,22 +346,22 @@ div .venta {
 h4 {
   color: red;
   text-align: center;
-  font-size: medium;
+  font-size: 30px;
 }
 
 div {
   color: dimgrey;
-  font-size: small;
+  font-size: 10px;
 }
 
 h5 {
   color: blue;
-  font-size: medium;
+  font-size: 15px;
 }
 
 h6 {
   color: yellow;
-  font-size: medium;
+  font-size: 15px;
 }
 
 .MenuInferior {
@@ -344,10 +374,15 @@ h6 {
   text-align: center;
 }
 
+.MenuInferior li :hover {
+  background-color: rgb(209, 209, 224);
+   border: solid 2px;
+  display: grid;}
+
 
 p {
   color: grey;
-  font-size: xx-small;
+  font-size: 7px;
 }
 
 
@@ -372,7 +407,7 @@ p {
 
   nav {
     font-size: large;
-    background-color: rgb(83, 76, 42);
+    background-color: rgb(85, 3, 16);
     text-align: center;
   }
 
