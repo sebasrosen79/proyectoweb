@@ -34,6 +34,11 @@ img.logo {
   height: 200px;
 }
 
+img.logo:hover {
+ border: solid rgb(243, 106, 129) 10px;
+}
+
+ 
 h1 {
   color: yellow;
   font-size: xx-large;
