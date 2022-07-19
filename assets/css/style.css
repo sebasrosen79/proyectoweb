@@ -25,7 +25,9 @@ h1 {
   font-size: 4rem;
   margin: -1 rem}
 
-  h2 {color: red;}
+  h2 {color: red;
+  text-align: center;
+padding-top: 2rem;}
 
   
 
@@ -48,18 +50,20 @@ h1 {
  color: red;
  border: solid 5px goldenrod;
  
+ 
+ 
 }
 .accordion-button {background-color: black;
 color: silver;}
 .accordion-item {color: black;
 background-color: silver;}
 
-fieldset.formulario {
+.formulario {
   background-color: yellowgreen;
   color: rgb(138, 11, 11);
-  font-size: medium;
-  text-align: left;
+ 
 }
+
 
 
 h4 {
@@ -68,8 +72,24 @@ h4 {
   font-size: medium;
   padding: 2.5rem;
 }
+.productos1 {
+  color: rgba(1, 65, 175, 0.877);
+  font-size: small;
+  
+}
 
+.productos2 {
+  color: rgb(211, 147, 9);
+  font-size: x-small;
+ 
+}
 
+.buscador
+{background-color: black;
+color: white;}
+
+.amigos
+{background-color: blue;}
 
 .footer {background-color: blueviolet
   ;}
