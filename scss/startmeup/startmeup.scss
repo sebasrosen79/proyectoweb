@@ -1,0 +1,75 @@
+
+body, html {
+    background-color: $color_plateado;
+    font-family:'Kdam Thmor Pro', sans-serif;
+    color:rgb(250, 150, 150);
+    }
+    
+    .logo {
+      width: 70px;
+      height: 70px;
+    }
+    
+    
+    
+
+
+
+
+.nav_color {
+    background-color:  $color_plateado;
+  
+.nav_color :hover {background-color:$color_blanco;} 
+  
+  
+  }
+
+
+
+  
+  
+  
+
+  
+  
+  
+  h1 {
+    color: $color_amarillo;
+    font-size: xx-large;
+    text-align: center;
+    width: 100vw;
+    font-size: 4rem;
+    padding-top: 1rem;}
+  
+    h2 {color: $color_rojo;
+    text-align: center;
+    font-size: x-large;
+  padding-top: 2rem;}
+  
+  
+  /*******SECTION***********/
+.carouseltitulo1 {color: $color_naranja;}
+.carouseltexto1 {color: $color_naranja;}
+.carouseltitulo2 {color: $color_azul;}
+.carouseltexto2 {color: $color_azul;}
+.carouseltitulo3 {color: $color_rojo}
+.carouseltexto3 {color: $color_rojo;}
+  
+  
+  
+
+  h4 {
+    color:  $color_azul;
+    text-align: center;
+    font-size: medium;
+    padding: 2.5rem;
+  }
+
+  hr {height: 1px;
+    width: 100%;
+   color: $color_azul;}
+
+   
+  
+  
+

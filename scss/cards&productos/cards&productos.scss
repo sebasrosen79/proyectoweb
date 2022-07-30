@@ -1,0 +1,41 @@
+.card
+  {background: $color_amarillo;
+   color: $color_rojo;
+   border: solid 5px $color_naranja;
+   text-align: center;
+  &hover {background-color:$color_azul;
+    color: $color_naranja;
+    border:solid 5px  $color_amarillo} }
+  
+  
+ 
+
+   
+
+  
+  
+  
+  
+  .accordion-button {background-color: $color_negro;
+  color: $color_blanco;}
+  .accordion-item {color:  $color_negro;
+  background-color:  $color_plateado}
+
+
+  .productos1 {
+    color: $color_azul;
+    font-size: small;}
+
+
+  
+  .productos2 {
+    color: $color_naranja;
+    font-size: x-small;}
+  
+  .donwas {
+    margin-top: 5rem;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto
+  }
+  
