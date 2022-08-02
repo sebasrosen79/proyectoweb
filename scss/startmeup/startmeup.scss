@@ -2,7 +2,7 @@
 body, html {
     background-color: $color_plateado;
     font-family:'Kdam Thmor Pro', sans-serif;
-    color:rgb(250, 150, 150);
+    color: $color_negro;
     }
     
     .logo {
@@ -10,28 +10,12 @@ body, html {
       height: 70px;
     }
     
-    
-    
-
-
-
-
-.nav_color {
-    background-color:  $color_plateado;
-  
-.nav_color :hover {background-color:$color_blanco;} 
-  
-  
-  }
-
-
-
-  
-  
-  
-
-  
-  
+    .nav_color {
+      background-color: $color_plateado;
+    color: $color_azul }
+    .nav_color:hover {background-color: $color_azul;
+      color: $color_blanco
+     }  
   
   h1 {
     color: $color_amarillo;
@@ -48,13 +32,40 @@ body, html {
   
   
   /*******SECTION***********/
-.carouseltitulo1 {color: $color_naranja;}
-.carouseltexto1 {color: $color_naranja;}
-.carouseltitulo2 {color: $color_azul;}
-.carouseltexto2 {color: $color_azul;}
-.carouseltitulo3 {color: $color_rojo}
-.carouseltexto3 {color: $color_rojo;}
+  .carouseltitulo1 {color: $color_naranja;
+   &carouseltitulo1:hover {background-color: $color_negro;
+      color: $color_naranja; border: solid 2px $color_naranja}
   
+  }
+  
+  .carouseltexto1 {color: $color_naranja;
+   &carouseltexto1:hover {background-color: $color_negro;
+      color: $color_naranja; border: solid 2px $color_naranja}
+  
+  }
+ 
+  .carouseltitulo2 {color: $color_azul;
+   &carouseltitulo2:hover {background-color: $color_blanco;
+      color: $color_azul;  border: solid 2px $color_azul}
+  
+  }
+  
+  .carouseltexto2 {color: $color_azul;
+  &carouseltexto2:hover {background-color: $color_blanco;
+    color: $color_azul;  border: solid 2px $color_azul}
+  
+  }
+  
+  .carouseltitulo3 {color: $color_rojo;
+  &carouseltitulo3:hover {background-color: $color_negro;
+    color: $color_rojo; border:  solid 2px $color_rojo}
+  
+  }
+  
+  .carouseltexto3 {color: $color_rojo;
+  &carouseltexto3:hover {background-color: $color_negro;
+    color: $color_rojo; border:  solid 2px $color_rojo}
+  }
   
   
 

@@ -1,9 +1,28 @@
 .amigos
   {
-  font-size: x-small;}
-  
-  .container {font-size: xx-small;}
-  
-  .textofooter {font-size: xx-small;
+  font-size: large;
+ background-color: $color_plateado;
+color: $color_azul}
+
+.container {font-size: xx-small;
+  color: $color_azul;
+  background-color:$color_blanco;
+  flex-wrap: wrap;
   }
- 
+
+
+
+.nav-link { color: $color_amarillo;}
+
+.textofooter {font-size: xx-small;
+  color: $color_azul;
+  &textofooter :hover {color: $color_negro;
+    background-color: $color_amarillo}}
+
+
+
+
+
+
+
+
