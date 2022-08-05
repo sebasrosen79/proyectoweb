@@ -100,13 +100,6 @@ hr {
     color: #d68100;
     border: solid 5px #ffd900; }
 
-.videos {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 200px 200px;
-  justify-items: center;
-  align-items: center; }
-
 .accordion-button {
   background-color: #292727;
   color: rgba(255, 255, 255, 0.815); }
@@ -139,11 +132,15 @@ hr {
   color: #ff2f2f;
   background-color: #292727; }
 
+.videos {
+  background-color: #7c7b7b;
+  border: 5px solid rgba(255, 255, 255, 0.815); }
+
 .formulario {
   background-color: #bcfc3b;
   color: #ff2f2f; }
   .formulario_hover {
-    background-color: #037a03;
+    background-color: #017001;
     color: #292727; }
 
 .boton {
@@ -200,16 +197,12 @@ hr {
     font-size: medium; }
   .card {
     background-color: #1d1c1c;
-    color: rgba(255, 255, 255, 0.815); }
-  .videos {
-    display: table-row; } }
+    color: rgba(255, 255, 255, 0.815); } }
 
 /*-------Mobile Firt-------*/
 @media (min-width: 320px) and (max-width: 575.98px) {
   body {
-    background: green; }
-  .videos {
-    display: table-row; } }
+    background: #017001; } }
 
 /****HEAD*******/
 /*******BODY*********/

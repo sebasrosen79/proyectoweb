@@ -59,8 +59,7 @@ color: rgba(1, 65, 175, 0.877) }
 
 .containercard 
 {background-color: rgb(124, 123, 123);
-  justify-items: center;
-  align-items: center;
+  
 
 }
 
@@ -69,21 +68,11 @@ color: rgba(1, 65, 175, 0.877) }
  color:rgb(255, 47, 47);
  border: solid 5px rgb(214, 129, 0);
  text-align: center;
+ justify-content: center;
 }
 .card:hover {background-color: rgba(1, 65, 175, 0.877);
   color: rgb(214, 129, 0);
 border:solid 5px rgb(255, 217, 0)}
-
-
-
-.videos
-{display: grid;
- grid-template-columns: 1fr 1fr 1fr ;
- grid-template-rows: 200px 200px;
- justify-items: center;
- align-items: center;
-
-}
 
 
 
@@ -100,12 +89,12 @@ background-color: rgba(255, 255, 255, 0.815)}
 
 
 .formulario {
-  background-color: yellowgreen;
-  color: rgb(255, 47, 47);}
+  background-color: rgb(188, 252, 59;
+  color: rgb(255, 47, 47));}
 .formulario:hover{background-color: green;
 color: rgb(29, 28, 28);} 
 
-.boton {background-color: yellow;
+.boton {background-color: rgb(255, 217, 0);
 color:rgba(1, 65, 175, 0.877))}
 
 .boton1 {background-color: rgb(255, 47, 47);
@@ -150,9 +139,18 @@ h4 {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  color: red;
+  color: rgb(255, 47, 47);
   background-color: black;}
 
+
+
+
+.videos
+{background-color: rgb(124, 123, 123);
+border: 5px solid rgba(255, 255, 255, 0.815)}
+
+
+ 
 
 .amigos
   {
@@ -193,10 +191,14 @@ color: rgb(29, 28, 28);
   font-size: large;}
   h2 {color:rgba(1, 65, 175, 0.877);
   font-size: medium;}
-  .card {background-color: rgb(29, 28, 28);
-  color: rgba(255, 255, 255, 0.815)}
-  .videos {display: table-row;}
+  .containercard {justify-content: center}
 
+  .card {background-color: rgb(29, 28, 28);
+  color: rgba(255, 255, 255, 0.815);
+  justify-content: center;}
+
+  }
+ 
 }
 
 
@@ -205,10 +207,12 @@ color: rgb(29, 28, 28);
 
 
 @media (min-width: 320px)and (max-width: 575.98px) {
-  body{background: green;}
+  body{background: rgb(1, 112, 1);}
 
-  .videos {display: table-row;}
-  
+  .containercard {justify-items: center}
+
+  .card {background-color:  rgb(214, 129, 0);
+    color: rgba(1, 65, 175, 0.877);
+    }
+   
 }
-  
-  

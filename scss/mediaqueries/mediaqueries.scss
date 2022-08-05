@@ -15,7 +15,7 @@
   font-size: medium;}
   .card {background-color: rgb(29, 28, 28);
   color: $color_blanco;}
-  .videos {display: table-row;} }
+   }
 
 
   
@@ -23,6 +23,6 @@
   /*-------Mobile Firt-------*/
   
   @media (min-width: 320px)and (max-width: 575.98px) {
-    body{background: green;}
-    .videos {display: table-row;} }
+    body{background: $color_verde;}
+   }
     

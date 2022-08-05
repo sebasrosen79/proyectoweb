@@ -7,24 +7,14 @@
 
 
 
-.card
-{background-color: $color_amarillo;
- color: $color_rojo;
- border: solid 5px $color_naranja;
- text-align: center;
-&hover {background-color: $color_azul;
-  color: $color_naranja;
-border:solid 5px $color_amarillo}
-
-}
-.videos
-{display: grid;
- grid-template-columns: 1fr 1fr 1fr ;
- grid-template-rows: 200px 200px;
- justify-items: center;
- align-items: center;
-
-}
+.card 
+  {background-color: $color_amarillo;
+    color: $color_rojo;
+    border: solid 5px $color_naranja;
+    text-align: center;
+   &hover {background-color: $color_azul;
+     color: $color_naranja;
+   border:solid 5px $color_amarillo} }
 
   
     .accordion-button {background-color: $color_negro;
@@ -66,3 +56,7 @@ border:solid 5px $color_amarillo}
       margin-right: auto;
       color: $color_rojo;
       background-color: $color_negro;}
+
+      .videos
+{background-color: $color_plateado;
+  border: 5px solid $color_blanco}
