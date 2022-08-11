@@ -1,14 +1,13 @@
-//utilities =variables
-@import "./utilities/variables";
-
-//maps
-
-@import "./maps.scss/maps.scss";
-
-
 //base=reset, tipografias
 
 @import "./base/reset.scss";
+
+//mixins
+
+@import "./mixins.scss/mixins.scss";
+
+//utilities =variables
+@import "./utilities/variables";
 
 
 //header//Body

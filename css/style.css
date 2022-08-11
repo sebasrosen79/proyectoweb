@@ -1,9 +1,11 @@
 /*****variables de colores********/
-/*********************************/
 body, html {
   background-color: #7c7b7b;
   font-family: 'Kdam Thmor Pro', sans-serif;
-  color: #292727; }
+  color: #292727;
+  max-width: 100%;
+  padding: 0%;
+  margin: 0%; }
 
 .logo {
   width: 70px;
@@ -91,14 +93,13 @@ hr {
   align-items: center; }
 
 .card {
-  background-color: #ffd900;
-  color: #ff2f2f;
   border: solid 5px #d68100;
-  text-align: center; }
+  background: #ffd900;
+  color: #ff2f2f; }
   .cardhover {
-    background-color: rgba(1, 65, 175, 0.877);
-    color: #d68100;
-    border: solid 5px #ffd900; }
+    border: solid 5px #ffd900;
+    background: rgba(1, 65, 175, 0.877);
+    color: #d68100; }
 
 .accordion-button {
   background-color: #292727;
@@ -125,12 +126,10 @@ hr {
     color: rgba(1, 65, 175, 0.877); }
 
 .donwas {
-  margin-top: 5rem;
+  margin-top: solid 5rem;
   display: flex;
   margin-left: auto;
-  margin-right: auto;
-  color: #ff2f2f;
-  background-color: #292727; }
+  margin-right: auto; }
 
 .videos {
   background-color: #7c7b7b;
@@ -183,26 +182,51 @@ hr {
 /*----Desktops*/
 @media (min-width: 1199.98px) {
   body {
-    background: #7c7b7b; } }
+    background: #7c7b7b;
+    width: 100%;
+    padding: 0%;
+    margin: 0%; } }
 
 /*------Tablet-------*/
 @media (min-width: 576px) and (max-width: 991.98px) {
   body {
-    background: #d68100; }
+    background: #d68100;
+    width: 100%;
+    padding: 0%;
+    margin: 0%; }
   h1 {
     color: #292727;
     font-size: large; }
   h2 {
     color: rgba(1, 65, 175, 0.877);
     font-size: medium; }
+  .containercard {
+    justify-content: center;
+    width: 100%;
+    padding: 0%;
+    margin: 0%; }
   .card {
-    background-color: #1d1c1c;
-    color: rgba(255, 255, 255, 0.815); } }
+    background-color: #292727;
+    color: rgba(255, 255, 255, 0.815);
+    justify-content: center;
+    width: 100%; } }
 
 /*-------Mobile Firt-------*/
 @media (min-width: 320px) and (max-width: 575.98px) {
   body {
-    background: #017001; } }
+    background: #017001;
+    width: 100%;
+    padding: 0%;
+    margin: 0%; }
+  .containercard {
+    justify-items: center;
+    width: 100%;
+    padding: 0%;
+    margin: 0%; }
+  .card {
+    background-color: #d68100;
+    color: rgba(1, 65, 175, 0.877);
+    width: 100%; } }
 
 /****HEAD*******/
 /*******BODY*********/

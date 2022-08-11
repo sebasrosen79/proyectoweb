@@ -1,6 +1,16 @@
-@mixin flex  ($justify, $aling,) {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@mixin card ($border1, $backgroundcolor1, $color1)
+    {
+border: $border1;
+background: $backgroundcolor1;
+color: $color1;
+
 }
 
+@mixin donwas ($margintop, $display, $marginleft, $marginright)
+
+{
+    margin-top: $margintop;
+    display: $display;
+    margin-left: $marginleft;
+    margin-right: $marginright;
+}

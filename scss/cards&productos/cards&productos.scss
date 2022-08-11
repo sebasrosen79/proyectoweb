@@ -7,14 +7,12 @@
 
 
 
-.card 
-  {background-color: $color_amarillo;
-    color: $color_rojo;
-    border: solid 5px $color_naranja;
-    text-align: center;
-   &hover {background-color: $color_azul;
-     color: $color_naranja;
-   border:solid 5px $color_amarillo} }
+.card { 
+  @include card(solid 5px $color_naranja, $color_amarillo,  $color_rojo)
+    &hover {
+      @include card(solid 5px $color_amarillo, $color_azul, $color_naranja )
+      } 
+  }
 
   
     .accordion-button {background-color: $color_negro;
@@ -46,16 +44,11 @@
 
 
      }
-    
-     
-  
      .donwas {
-      margin-top: 5rem;
-      display: flex;
-      margin-left: auto;
-      margin-right: auto;
-      color: $color_rojo;
-      background-color: $color_negro;}
+       @include donwas ( solid 5rem, flex,auto, auto,)
+     }
+
+
 
       .videos
 {background-color: $color_plateado;
