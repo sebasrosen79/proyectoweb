@@ -3,47 +3,19 @@
 {background-color: $color_plateado;
   justify-items: center;
   align-items: center;
+  max-width: 100%;
+  margin: 0rem;
 }
 
 
 
 .card { 
-  @include card(solid 5px $color_naranja, $color_amarillo,  $color_rojo)
+  @include card(solid 5px $color_negro,$color_amarillo, $color_rojo)
     &hover {
-      @include card(solid 5px $color_amarillo, $color_azul, $color_naranja )
+      @include card(solid 5px $color_amarillo, $color_azul, $color_rojo )
       } 
   }
 
-  
-    .accordion-button {background-color: $color_negro;
-      color: $color_blanco;
-    &accordion-button :hover { color: $color_negro ;
-      background-color: $color_blanco}
-      
-    }
-    
-    
-    .accordion-item  {background-color: $color_negro;
-      color: $color_blanco;
-    &accordion-item :hover {color: $color_negro;
-      background-color: $color_negro}
-    }   
-    
-     
-
-    .productos1 {
-      color: $color_azul;
-      font-size: small;
-      }
-    
-    
-    .productos2 {
-      color: $color_naranja;
-      font-size: x-small;
-      &productos2 :hover {color: $color_azul}
-
-
-     }
      .donwas {
        @include donwas ( solid 5rem, flex,auto, auto,)
      }

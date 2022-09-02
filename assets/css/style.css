@@ -87,37 +87,10 @@ border:solid 5px rgb(29, 28, 28);
 width: 100%}
 
 .material
-{text-align: center;
- justify-content: center;
- width: 100%;
- padding: 0%;
- margin: 0%;
-}
-
-
-.tablaproductos
-{width: 100%;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  border: rgba(1, 65, 175, 0.877);
-  text-align: center;
-
-}
-
-
-.productos
 {
-  width: 100%;
-  max-width: 1000px;
-  border: rgba(1, 65, 175, 0.877);
-  border-collapse: collapse;
-  margin: 0;
-  padding: 0;
-  table-layout: fixed;
   text-align: center;
+  justify-content: center;
 }
-
 
 .formulario {
   background-color: rgb(124, 123, 123) ;
@@ -166,16 +139,6 @@ h4 {
 {
 text-align: center;
 }
-
-
-.cardproductos {
-  margin-left: 25%;
-  width: 100%;
-  max-width: 100%;
-  margin: 0rem;
-}
-
-
  
 
 .videos
@@ -245,6 +208,8 @@ color: rgb(29, 28, 28);
     margin: 0rem;
    
   } 
+
+
 
   
 .nav-link {
@@ -347,23 +312,22 @@ width: 100%}
   .containercard {justify-items: center;
     width: auto;
     max-width: auto;
-    margin: 0%;}
+   }
+
+  
+.material
+{
+  text-align: center;
+  justify-content: center;
+  max-width: auto;
+}
+
    
 
 
 
-  .card {background-color: rgb(206, 206, 206)  ;
-    color: rgba(1, 65, 175, 0.877);
-    width: 100%;
-  max-width: 100%;
-  margin: 0%;}
    
 
-    .container {
-      flex-wrap: wrap;
-      width: 100%;
-        max-width: 100%;
-        margin: 0%;} 
     
      
     

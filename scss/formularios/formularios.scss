@@ -1,7 +1,7 @@
 .formulario {
-    background-color: $color_verderaro;
+    background-color: $color_plateado;
     color:  $color_rojo;
-    &_hover{background-color: rgb(1, 112, 1);
+    &_hover{background-color: $color_azul;
       color: $color_negro;}  
     }
     
@@ -11,7 +11,7 @@
       .boton1 {background-color: $color_rojo;
       color: $color_negro}
       
-      .boton2 {background-color: $color_naranja;
+      .boton2 {background-color: $color_rojo;
       color: $color_blanco}
       
       .boton3 {background-color: $color_negro;

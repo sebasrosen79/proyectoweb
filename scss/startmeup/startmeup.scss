@@ -35,15 +35,15 @@ body, html {
   
   
   /*******SECTION***********/
-  .carouseltitulo1 {color: $color_naranja;
+  .carouseltitulo1 {color: $color_rojo;
    &carouseltitulo1:hover {background-color: $color_negro;
-      color: $color_naranja; border: solid 2px $color_naranja}
+      color: $color_amarillo; border: solid 2px $color_rojo}
   
   }
   
-  .carouseltexto1 {color: $color_naranja;
+  .carouseltexto1 {color: $color_rojo;
    &carouseltexto1:hover {background-color: $color_negro;
-      color: $color_naranja; border: solid 2px $color_naranja}
+      color: $color_amarillo; border: solid 2px $color_rojo}
   
   }
  

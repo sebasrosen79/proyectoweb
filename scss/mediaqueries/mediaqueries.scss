@@ -1,61 +1,95 @@
- /*----Desktops*/
- @media  (min-width: 1199.98px){
-    body{background:  $color_plateado;
-      width: 100%;
-      padding: 0%;
-      margin: 0%;
-          }
-  }
-  
-  
-  /*------Tablet-------*/
-  
- 
-@media (min-width: 576px) and (max-width: 991.98px)  {
-  body{background: $color_naranja;
+/*----Desktops*/
+
+@media (min-width: 1199.98px) {
+  body, html, main{background: $color_plateado;
     width: 100%;
-    padding: 0%;
-    margin: 0%; }
-  h1 {color: $color_negro;
-  font-size: large;}
-  h2 {color: $color_azul;
-  font-size: medium;}
-  .containercard {justify-content: center;
-    width: 100%;
+    max-width: 100%;
     padding: 0%;
     margin: 0%;
 
-  }
+  
+ }
+}
+.container {
+  flex-wrap: wrap;
+  width: 100%;
+    max-width: 100%;
+    margin: 0rem;
+   
+  } 
+
+
+
+  
+.nav-link {
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 100%;
+  margin: 0rem;
+ }
+
+
+.textofooter
+{ flex-wrap: wrap;
+  width: 100%;
+  max-width: 100%;
+  margin: 0rem;
+ }
+
+   
+
+/*------Tablet-------*/
+
+@media (min-width: 576px) and (max-width: 991.98px)  {
+  body, html, main{background: $color_blanco; 
+    width: 100%;
+    max-width: 100%;
+    padding: 0%;
+    margin: 0%;
+    }
+  
+  h1 {color: $color_negro;
+  font-size: large;
+width: 100%}
+  h2 {color: $color_azul;
+  font-size: medium;
+width: 100%}
+  .containercard {justify-content: center;
+    width: 100%;
+    max-width: 100%;
+    padding: 0%;
+    margin: 0%;
+    margin-top: 12px;}
+
   .card {background-color: $color_negro;
   color: $color_blanco;
   justify-content: center;
-  width: 100%;}
-   
+  width: 100%;
+  max-width: 100%;
+  margin: 0%;}
+
   }
+ 
 
 
-  
-  
-  /*-------Mobile Firt-------*/
-  
-  @media (min-width: 320px) and (max-width: 575.98px){
-    body{background: $color_verde;
-      width: 100%;
-      padding: 0%;
-      margin: 0%;
-          }
-      
-        .containercard {justify-items: center;
-          width: 100%;
-          padding: 0%;
-          margin: 0%;
-      }
-      
-        .card {background-color: $color_naranja;
-          color: $color_azul;
-          width: 100%;
-          }
-         
-      
-   }
+.container {
+  flex-wrap: wrap;
+  width: 100%;
+    max-width: 100%;
+    margin: 0%;
     
+  } 
+
+.nav-link {
+  flex-wrap: wrap;
+  width: 100%;
+    max-width: 100%;
+    margin: 0%;
+  } 
+
+  .navbar-text {
+  flex-wrap: wrap;
+  width: 100%;
+    max-width: 100%;
+    margin: 0%;}
+     

@@ -1,21 +1,37 @@
 .amigos
   {
-  font-size: large;
+    font-size: large;
+    text-align: center;
  background-color: $color_plateado;
-color: $color_azul}
+color: $color_azul;
+width: 100%;
+max-width: 100%;
+margin: 0%; 
+}
 
 .container {font-size: xx-small;
   color: $color_azul;
   background-color:$color_blanco;
   flex-wrap: wrap;
+  width: 100%;
+  max-width: 100%;
+  text-align: center
   }
 
 
 
-.nav-link { color: $color_amarillo;}
+.nav-link { color: $color_amarillo;
+  flex-wrap: wrap;
+  width: 80%;
+  max-width: 100%;
+  margin: 0rem;}
 
 .textofooter {font-size: xx-small;
   color: $color_azul;
+  flex-wrap: wrap;;
+  width: 100%;
+  max-width: 100%;
+  margin: 0rem;
   &textofooter :hover {color: $color_negro;
     background-color: $color_amarillo}}
 
